@@ -1,0 +1,216 @@
+.navbar{
+    text-transform: uppercase;
+    font-weight: 900px;
+     
+ }
+ 
+ .nav-item:hover .dropdown-menu{
+     display: block;
+ }
+ 
+ .nav-item a:hover{
+     color: #fe730c !important;
+ }
+ 
+ .dropdown-menu a:hover{
+ background-color: transparent !important;
+ }
+ 
+ .navbar-brand{
+     font-family: 'Pacifico',cursive;
+     text-transform: capitalize;
+ }
+ 
+ /*STYLE FOR CAROUSEL BUTTON*/
+ .btn{
+     height: 60px;
+     width: auto;
+     background-color: #fe730c;
+     color: white;
+     text-transform: uppercase;
+     border-top-left-radius: 18px 18px !important;
+     border-bottom-right-radius: 18px 18px;
+     border-top-right-radius: 5px 2px;
+     border-bottom-left-radius: 5px 2px;
+ }
+ 
+ .btn:hover{
+     background-color: green;
+     color: white;
+     outline: none;
+ }
+ 
+ 
+ .carousel-inner .d-block{
+     height: 500px;
+     width: auto;
+ }
+ .carousel-caption{
+     padding-bottom: 170px;
+ }
+ 
+ .indicator{
+     width: 40px !important;
+     height: 25px !important;
+     border-radius: 10px !important;
+     background-color: #fe730c !important;
+ }
+ 
+
+/*STYLING THE CARD*/
+.card{
+    position: relative;
+}
+.card-content{
+    box-shadow: 0 1rem rgba(0. rgba(0, 0, 0, .5));
+    transition: all 2s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-back{
+    transform: rotateY(180deg);
+}
+.card:hover .card-front{
+    transform: rotateY(-180deg);
+}
+.card:hover .card-back{
+    transform: rotateY(0);
+}
+.card-img-top{
+    height: 200px !important;
+}
+
+.cardFooterColumnsRight{
+    border-right: 1px solid #ccccb3;
+  
+}
+.readMore{
+    color: #fe730c;
+}
+
+/*STYLING THE FOOTER */
+.footerContainer{
+    padding-left: 50px;
+    /*margin-top: 500px;*/
+    background-color: #00001a;
+}
+.footerFirstRow{
+    padding-top: 50px;
+        padding-left: 20px;
+}
+.footerFirstRow p,h6,a{
+    color: white;
+}
+.footerFirstRow a:hover{
+    color: #fe730c !important;
+}
+
+.footerFirstRow p:hover{
+    color: #fe730c !important;
+}
+
+.footerSecondRow{
+    background-color: #00001a;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footerSecondRow{
+    text-align: center;
+    color: white;
+}
+
+/*STYLING THE WIDGETS */
+.icons-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    right: 0%;
+    z-index: 100;
+    transform: translateY(-50%); 
+}
+
+.icons-social{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 0%;
+    z-index: 100;
+    transform: translateY(-50%); 
+}
+.icons-bar a{
+    display: block;
+    text-align: center;
+    padding: 9px 9px;
+    transition: all 0.3 ease;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.icons-social a{
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    transition: all 0.3 ease;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.icons-bar a:hover{
+    background-color: #62b319;
+    
+}
+.icons-bar a{
+    background-color: #fe730c;
+}
+
+/*STYLING BANNER SECTION*/
+.bannerSection{
+    position: relative;
+    margin-top: 3px;
+}
+
+.bannerPageSection{
+    background-size: 100% 100%;
+}
+.innerBannerPageSection{
+    background: rgb(26,26,26,0.4);
+    background-size: 100% 100%;
+    height: 450px;
+} 
+.bannerContent{
+    position: relative;
+    top: 150px; 
+ 
+}
+
+.bannerContent h2,h6{
+    color: #ffff;
+}
+
+/*STYLE FOR DEPARTMENTS*/
+.department-cards img{
+    width: 100%;
+    height: 150px;
+    display: block;
+    vertical-align: middle;
+    margin: 0px 0;
+    box-shadow: none;
+    border-style: none;
+    -webkit-box-shadow: none;
+}
+
+.department-cards{
+    border-radius: 3px;
+    margin: 25px;
+    overflow: hidden;
+    background: #fff;
+}
